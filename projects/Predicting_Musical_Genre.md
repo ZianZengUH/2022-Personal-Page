@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Music genres.jpg
 title: "Musical Genre Prediction"
 date: 2021
 published: true
@@ -9,7 +9,7 @@ labels:
   - Machine learning
   - SVM Classification
   - Python
-summary: "A machine learning project for ICS 235"
+summary: "A ICS 235 machine learning project that predicts musical genres."
 ---
 
 <div class="text-center p-4">
