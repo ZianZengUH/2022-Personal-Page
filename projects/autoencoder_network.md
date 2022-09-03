@@ -43,7 +43,7 @@ In this project, I created a scatter plot of the data translated into the 2D spa
 In addition, I trained a regression neural network with a 2-neuron hidden layer on the scaled data. I computed the hidden representation of each sample with N_samples-by-2 dimensional array and plotted the 2D representation of the data computed and color them by cluster label as the following graph.
 
 <img width="500px" 
-     class="rounded float-start pe-4" 
+     class="img-fluid"
      src="../img/hidden_features.jpg" >
      
      
