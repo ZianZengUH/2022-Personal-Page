@@ -18,7 +18,7 @@ summary: "An autoencoder neural network that distinguishes different cancer type
      class="rounded float-start pe-4" 
      src="../img/cancers_labeled.jpg" >
      
-In this project, I analyzed a a gene expression dataset from the Cancer Genome Atlas (TCGA) Research Network, a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. Data was downloaded from the UCI website: (https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq).
+In this project, I analyzed a a gene expression dataset from the Cancer Genome Atlas (TCGA) Research Network, a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. Data was downloaded from: [UCI website](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq).
 
 Patients with various cancers (breast, lung, kidney, etc.) provided tumor samples, and the cells in the tissues were sequenced. The sequencing results can be displayed as a table after some data processing, where the rows represent our samples and the columns represent the frequency with which RNA from a certain gene was found (in other words, each column correspond to the expression level of a gene).
 
