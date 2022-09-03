@@ -9,7 +9,7 @@ labels:
   - Machine learning
   - SVM Classification
   - Python
-summary: "A ICS 235 machine learning project that predicts musical genres."
+summary: "A machine learning project that uses SVM classification to predict musical genres."
 ---
 
 <div class="text-center p-4">
