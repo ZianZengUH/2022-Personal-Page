@@ -13,44 +13,15 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+## Exploring The New Horizon: Javascript - A Simple but Powerful Language 
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+Although I have previous experiences with other languages like C, Java, and Python, I am completely new in the world of Javascript or any language that is leaning toward the front-end field. Based on my experience with the tutorial and practices in Free Code Camp, I figured that Javascript is indeed very similar to other languages like Java and Python, so I was able to grasp it at a rather quick pace. 
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+Despite that, there are still many things to learn, in both syntax and features sides. Although I have heard from others that Javascript is not a great language, I found out Javascript is in fact a concise and simple language when I was learning the units of Basic JavaScript and ES6 in Free Code Camp. It is way easier and faster to write code compared with C and Java. I think it is at the same level as Python and even in some cases, it may be simpler than Python when it comes to writing codes. I am very enjoying its functionalities and easier access to things with a rather simple syntax so far, so I will consider Javascript as a good language to learn from both a student and a software engineering perspective.
 
-Here's what I think: the difficult things will always be difficult.
+## Athletic Software Engineering & WODs
 
-## In the context of programming
+For athletic software engineering, it kind of made me stressed when I first heard about it because I am the kind of person who easily gets stressed out when there is time pressure especially when there is only a short amount of time to begin with or left. I find the practice WODs to be useful so far because I can experience what is going to be like when I take a real WOD, even though I have not done a real WOD yet. If the real WOD is very similar to the practice WODs, then I will be much more confident and less stressed after going through the practice WODs. I think this style of learning is new to me, and it is interesting and stressful as well. However, if the real WOD is a similar type of practice WODs and it is not an out-of-bound type of question that we haven’t learned before which means it is possible for us to finish the WOD in a comfortable time after practice, then the stress factor can be reduced greatly. If so, I think this learning style will work for me and I think it is a great opportunity to simulate the interview situation.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
-
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
-
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
+Overall, I have had a great experience so far and I am looking forward to learning more about Javascript and software engineering in this class.
