@@ -15,7 +15,7 @@ labels:
 
 ## Exploring The New Horizon: Javascript - A Simple but Powerful Language 
 
-width="300px" class="rounded float-start pe-4" src="../img/Javascript.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/Javascript.png">
 
 Although I have previous experiences with other languages like C, Java, and Python, I am completely new in the world of Javascript or any language that is leaning toward the front-end field. Based on my experience with the tutorial and practices in Free Code Camp, I figured that Javascript is indeed very similar to other languages like Java and Python, so I was able to grasp it at a rather quick pace. 
 
