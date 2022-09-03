@@ -6,7 +6,7 @@ title: "Musical Genre Prediction"
 date: 2021
 published: true
 labels:
-  - Machine learning
+  - Machine Learning
   - SVM Classification
   - Python
 summary: "A machine learning project that uses SVM classification to predict musical genres."
@@ -29,3 +29,9 @@ For this project, I learned how does a supervised linear model can work with cla
 
 
 You can learn more at source codes: [predicting musical genre](https://github.com/ZianZengUH/predicting_musical_genres).
+
+
+
+
+
+
