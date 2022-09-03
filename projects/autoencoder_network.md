@@ -6,7 +6,7 @@ title: "Autoencoder Neural Network for TCGA Dataset"
 date: 2021
 published: true
 labels:
-  - Machine learning
+  - Machine Learning
   - Autoencoder Neural Network
   - Python
 summary: "An autoencoder neural network that distinguishes different cancer types."
