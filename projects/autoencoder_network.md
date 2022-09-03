@@ -12,6 +12,8 @@ labels:
 summary: "An autoencoder neural network that distinguishes different cancer types."
 ---
 
+
+
 <img width="300px" 
      class="rounded float-start pe-4" 
      src="../img/cancers_labeled.jpg" >
