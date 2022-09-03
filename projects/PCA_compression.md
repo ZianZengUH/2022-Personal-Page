@@ -35,7 +35,7 @@ Then, I fine-tuned the compressed images by using different number of components
      
 By accomplished this project, I learned how can machine learning, specifically PCA decomposition, use in the field of image compression. In addition, I learned how to fine-tune the result of the model ran, and how to present the results of the model in a straightforward visual way.
 
-You can learn more at source codes: [PCA Image Compression] (https://github.com/ZianZengUH/PCA_compression).
+You can learn more at source codes: [PCA Image Compression](https://github.com/ZianZengUH/PCA_compression).
 
 
 
