@@ -30,6 +30,6 @@ The chosen model for predicting the genre was linear support-vector machines(SVM
 For this project, I learned how does a supervised linear model can work with classifing type of problem to make accurte predictions. In addition, I learned about how to further process data such as spliting, encoding and normalization, to make the dataset fit into the model, especially using what type of process methods are essential. For example, in this case, encode the data with its original order through normalization is the the right choice and other types of encoding such as ordinal encoding and one hot encoding are bad idea. Because for ordinal encoding, it implicitly indicate the order of artist or track name which may affect the model. For one hot encoding, since the names are all different and the list is huge, there will be high memory consumption due to the rapidly increasing of the dimension of the matrix and the encoded data is not useful for the model as well.
 
 
-You can learn more at source codes: [predicting musical genre](https://github.com/ZianZengUH/predicting_musical_genres).
+You can learn more at source codes: [PCA Image Compression] (https://github.com/ZianZengUH/PCA_compression).
 
 
