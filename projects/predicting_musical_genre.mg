@@ -12,6 +12,8 @@ labels:
 summary: "A machine learning project that uses SVM classification to predict musical genres."
 ---
 
+
+
 <div class="text-center p-4">
   <img width="700px" src="../img/genre_features.jpg" class="img-thumbnail" >
   <img width="1200px" src="../img/genre_features_2.jpg" class="img-thumbnail" >
