@@ -12,23 +12,27 @@ labels:
 summary: "A lossy image compression project using Principal Component Analysis (PCA)."
 ---
 
+<img width="600px" 
+     class="rounded float-start pe-4" 
+     src="../img/baby_yoda.jpeg" >
+     
+In this project, I use Principal Component Analysis to compress an image of baby yoda and we only have a single picture to compress. It denotes that we have n pixels of features and a single sample. If we wish to use PCA to effectively represent our data, we have an issue. In light of this, this method will treat the image as a sample by feature matrix, with each row being a sample and each column representing a feature. 
 
+In this project, the space of images is referred to as the "original space," and the space of images after PCA decomposition is referred to as the "PCA space." The strategy we're doing is to only use a few components to represent our image in the PCA space. To maintain the visual quality, we want to choose the fewest possible components.
 
-In this project, I analyzed a dataset to predict the musical genre of popular songs based on the songs characteristics. The characteristics are the followings: artist, track, duration, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time signature. The dataset given was cleaned and filtered for the purpose of focusing building the machine learning models, so the dataset only contains the above features and the targeted feature genre to test the accuracy of the model. However, the given dataset still need to go through the process of encoding, normalization, and spliting the data set in order to build the mahcine learning model. 
-
-The chosen model for predicting the genre was linear support-vector machines(SVM) classifier, because the problem that we dealed with was a classifiing problem. After training the model, I compute accurcy of the model and both for the train and test accuracy are not great which is arond 50%. Thus, I optimized the hyperparameters C, gamma, and the kernel, using a randomized search approach with 3-fold cross-validation to increase the performent of the model. At the end, I compute the confusion matrix for the best model and displayed in heat map format. 
+In order to use PCA, I converted the image into a numpy array which will make the image in a black and white form since we are only focus on the image quality rather than the color. After running a Principal Components Analysis on the image with 50 components to compress, we result a ratio of 24.0 between the size of the compressed image and the original image. The first compressed image as shown below:
 
 <img width="600px" 
      class="rounded float-start pe-4" 
      src="../img/compressed_Yoda.jpg" >
-     
+
+Then, I fine-tuned the compressed images by using different number of components. In order to evaluate the impact of the number of components on image quality and visually inspect the compressed images, I plotted the result of compression image for a varying number of components from 5 to 40 with a step of 5. In this way, each subplot represents an image for a given number of components (see figure below).
 
 <img width="600px" 
      class="rounded float-start pe-4" 
      src="../img/compression_ratio.jpg" >
      
-For this project, I learned how does a supervised linear model can work with classifing type of problem to make accurte predictions. In addition, I learned about how to further process data such as spliting, encoding and normalization, to make the dataset fit into the model, especially using what type of process methods are essential. For example, in this case, encode the data with its original order through normalization is the the right choice and other types of encoding such as ordinal encoding and one hot encoding are bad idea. Because for ordinal encoding, it implicitly indicate the order of artist or track name which may affect the model. For one hot encoding, since the names are all different and the list is huge, there will be high memory consumption due to the rapidly increasing of the dimension of the matrix and the encoded data is not useful for the model as well.
-
+By accomplished this project, I learned how can machine learning, specifically PCA decomposition, use in the field of image compression. In addition, I learned how to fine-tune the result of the model ran, and how to present the results of the model in a straightforward visual way.
 
 You can learn more at source codes: [PCA Image Compression] (https://github.com/ZianZengUH/PCA_compression).
 
