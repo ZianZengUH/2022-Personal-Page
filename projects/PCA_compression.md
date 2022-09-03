@@ -42,21 +42,3 @@ You can learn more at source codes: [PCA Image Compression] (https://github.com/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-a
