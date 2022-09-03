@@ -12,7 +12,7 @@ labels:
 summary: "A lossy image compression project using Principal Component Analysis (PCA)."
 ---
 
-<img width="600px" 
+<img width="500px" 
      class="rounded float-start pe-4" 
      src="../img/baby_yoda.jpeg" >
      
@@ -30,7 +30,8 @@ Then, I fine-tuned the compressed images by using different number of components
 
 <img width="600px" 
      class="rounded float-start pe-4" 
-     src="../img/compression_ratio.jpg" >
+     src="../img/compression_ratio.jpg" 
+     align="left" >
      
 By accomplished this project, I learned how can machine learning, specifically PCA decomposition, use in the field of image compression. In addition, I learned how to fine-tune the result of the model ran, and how to present the results of the model in a straightforward visual way.
 
