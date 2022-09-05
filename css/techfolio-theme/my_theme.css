@@ -6,24 +6,25 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-blue1: #BACCD9;
+  --tf-blue1: #158BB8;
   --tf-blue2: #10AEC2;
   --tf-blue3: #158BBB;
   --tf-green1: #41B349;
   --tf-yellow1: #E9CD80;
-  --tf-white: #F8E7D8;
+  --tf-purple: #696D9E;
+  --tf-red: #E9CD80;
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--tf-blue3:);
+  --bs-link-color: var(--tf-blue3);
   --tf-pill-bg: var(--tf-green1);
-  --tf-icon-fill: var(--tf-yellow1:);
-  --tf-page-bg-color: var(--tf-white);
+  --tf-icon-fill: var(--tf-yellow1);
+  --tf-page-bg-color: var(--tf-purple);
   --tf-footer-bg-color: var(--tf-yellow1);
-  --tf-projects-bg-color: var(--tf-yellow1);
+  --tf-projects-bg-color: var(--tf-red);
   --tf-essays-bg-color: var(--tf-blue2);
 }
 
 h1,h2,h3,h4,h5 {
-  color: var(--tf-blue1);
+  color: var(--tf-blue2);
   font-family: Rubik;
 }
 
