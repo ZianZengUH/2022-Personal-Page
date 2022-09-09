@@ -12,7 +12,7 @@ labels:
   - Reflection
 ---
 
-<img width="500px" class="rounded float-start pe-4" src="../img/essays/stack_overflow.png">
+<img width="700px" class="rounded float-start pe-4" src="../img/essays/stack_overflow.png">
 
 ## Introduction: Why is Asking a Smart Question Important?
 
