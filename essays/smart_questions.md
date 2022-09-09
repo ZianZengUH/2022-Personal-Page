@@ -22,19 +22,19 @@ We often ask questions in our life and this is a common thing in the world of so
 ## The Way to Get a Helpful Answer
 
 There are many things that you can do to increase your likelihood of getting a good answer. In other words, you can do a lot of things to generate a smart question. According to Raymond and Moen (2014), before asking a question, you should do your best to do your own research first rather than hoping others will feed you the entire solution for a big problem. You may do the following:
-Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
-Try to find an answer by searching the Web.
-Try to find an answer by reading the manual.
-Try to find an answer by reading a FAQ.
-Try to find an answer by inspection or experimentation.
-Try to find an answer by asking a skilled friend.
-If you're a programmer, try to find an answer by reading the source code. (Raymond & Moen, 2014)
+1. Try to find an answer by searching the archives of the forum or mailing list you plan to post to.
+2. Try to find an answer by searching the Web.
+3. Try to find an answer by reading the manual.
+4. Try to find an answer by reading a FAQ.
+5. Try to find an answer by inspection or experimentation.
+6. Try to find an answer by asking a skilled friend.
+7. If you're a programmer, try to find an answer by reading the source code. (Raymond & Moen, 2014)
 
 The most important thing is that you need to show that you did your own research when asking the question.
 Second, Raymond and Moen (2014) mentioned you can “use meaningful, specific subject headers” to get people’s attention and a better understanding of the subject that you are querying on. Third, you should write in clear, concise, and grammatically correct language. Fourth, you should present the questions in “accessible, standard formats”. Finally, you should try to be precise and informative about your problem, and try to describe the symptoms of your problem in a clear manner while avoiding only presenting your guess. There are still many methods that Raymond and Moen noted on their website, but this should provide some good insights on what is a smart question and how to form it.
 
 Now, let’s look at an example of a smart question that was posted on StackOverflow. In this post, the developer asked a question about how to calculate r-squared using Python and Numpy. First of all, the developer has a clear and specific subject headline as “How do I calculate r-squared using Python and Numpy?”. In this headline, the developer presented the leading elements related to his requests such as the specific language (Python), library (Numpy), and topic for help (r-squared). Second, the developer described his situation and problem precisely and informatively without grammatical errors. At the beginning of the post, the developer shared his situation by mentioning what he had accomplished which is that he uses “Python and Numpy to calculate the best fit polynomial of arbitrary degree” and “pass a list of x values, y values, and the degree of the polynomial” that he “want to fit (linear, quadratic, etc.)”. Then, the developer got into the details of his problem which is that he wants to “calculate r (coefficient of correlation) and r-squared(coefficient of determination)”, but his function does not work for polynomials with degrees greater than 1. From what we see so far, the description of the problem is concise and specific but still touches on the background of the question. In between the question, the developer demonstrated his efforts before asking the question that he used Excel to test and compare the result of his program which fulfilled Raymond’s precept of “try to find an answer by inspection or experimentation”. Through demonstrating his effort before asking the question, he explained further the symptom of the question that after using Excel's best-fit trendline capability to test the result, he knows that he is “calculating r-squared correctly for linear best-fit (degree equals 1)”. Lastly, the developer provided his source code and presented his source code in an “accessible, standard format” in the post in which other developers can copy the source code to test the result and manipulate the code. Thus, this is a great example of asking a smart question.
-In addition, a smart question will more likely get a more helpful and detailed answer which is the case here. The accepted answer to this question provided reference documentation and websites for the questioner such as the “numpy.polyfit documentation”). The respondent also provides an equation to the question like “E(y|x) = p_d * x**d + p_{d-1} * x **(d-1) + ... + p_1 * x + p_0" as well as two blocks of codes for questioner to examine. Furthermore, the question was answered on the same day (May 21), 5 hours after the question was posted. Hence, asking a question in such a smart way will most likely lead to both efficient and effective help.
+In addition, a smart question will more likely get a more helpful and detailed answer which is the case here. The accepted answer to this question provided reference documentation and websites for the questioner such as the “numpy.polyfit documentation”). The respondent also provides an equation to the question like “E(y|x) = p_d * x\**d + p_{d-1} * x \**(d-1) + ... + p_1 * x + p_0" as well as two blocks of codes for questioner to examine. Furthermore, the question was answered on the same day (May 21), 5 hours after the question was posted. Hence, asking a question in such a smart way will most likely lead to both efficient and effective help.
 
 For more details visit [good example](https://stackoverflow.com/questions/893657/how-do-i-calculate-r-squared-using-python-and-numpy?rq=1).
 
@@ -51,6 +51,6 @@ For more details visit [bad example](https://stackoverflow.com/questions/7364260
 In summary, it is essential to develop the ability to ask smart questions, especially for software engineers, because it is the best way to get a rapid, responsive, and helpful answer. On another hand, the path of asking questions in a bad manner such as being very vague about the question, writing with many grammatical errors, being impolite, and trying to let others do your homework for you, is not the method to get adequate help from other people. Although the process can be time-consuming, putting the effort into research before asking the question and generating smart questions is the best way to get the most benefits in our journey of software engineering.
 
 
-References
+_**References**_
 
-Raymond, E. S., & Moen, R. (2014, May 21). How To Ask Questions The Smart Way. www.catb.org. [http://www.catb.org/esr/faqs/smart-questions.html](http://www.catb.org/esr/faqs/smart-questions.html) 
+Raymond, E. S., & Moen, R. (2014, May 21). _How To Ask Questions The Smart Way_. www.catb.org. [http://www.catb.org/esr/faqs/smart-questions.html](http://www.catb.org/esr/faqs/smart-questions.html) 
