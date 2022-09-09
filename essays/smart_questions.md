@@ -1,14 +1,15 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Can’t Get a Helpful Answer? Try Smart Questions"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2022-09-08
+published: true
 labels:
   - Questions
   - Answers
   - StackOverflow
+  - Reflection
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
