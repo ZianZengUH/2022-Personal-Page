@@ -49,10 +49,10 @@
       "startDate": "2020-12-00",
       "endDate": "Present",
       "summary": "Facilitated multiple group study sessions and office hours weekly for ICS 111.",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
+ [//]: #     "highlights": [
+ [//]: #       "Maintain, update, and oversee official college newspaper website",
+ [//]: #       "Drive, design and build student-community projects for UH Manoa"
+  [//]: #    ]
     },
     {
       "company": "University of Hawaii - Windward Community College",
@@ -61,45 +61,45 @@
       "startDate": "2022-01-00",
       "endDate": "Present",
       "summary": "Assist students with different levels of math in one-to-one setting.",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
-      ]
+ [//]: #     "highlights": [
+  [//]: #      "Troubleshoot software, hardware and networking issues over the phone",
+ [//]: #       "Answer phone and email responses to the ITS Help Desk"
+[//]: #      ]
     }
   ],
- "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
-  ],
+[//]: #  "volunteer": [
+ [//]: #    {
+ [//]: #      "organization": "Center for Renewable Energy and Island Sustainability",
+ [//]: #     "website": "http://manoa.hawaii.edu/reis",
+ [//]: #      "position": "Software Developer",
+ [//]: #      "startDate": "2016-01-01",
+ [//]: #      "endDate": "Present",
+  [//]: #     "summary": "Lead developer for weather sensing project",
+ [//]: #      "highlights": [
+ [//]: #        "Design firmware for distributed weather sensor network",
+ [//]: #        "Maintain custom data collection and storage infrastructure"
+ [//]: #      ]
+ [//]: #    },
+  [//]: #   {
+  [//]: #     "organization": "",
+  [//]: #     "website": "",
+  [//]: #     "position": "Professional organization involvement",
+   [//]: #    "startDate": "",
+   [//]: #    "endDate": "",
+ [//]: #      "summary": "",
+   [//]: #    "highlights": [
+   [//]: #      "Chair, ACM Manoa, 2016-Present",
+   [//]: #      "Member, IEEE Student Branch, 2014-Present",
+   [//]: #      "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+  [//]: #     ]
+ [//]: #    }
+[//]: #   ],
   "awards": [
     {
       "title": "Dean's List",
       "date": "2021-Present",
-      "awarder": "State of Hawaii",
-      "summary": "1. Earn a semester GPA of 3.5 or higher based on 12 credits or more; 2. Do not receive grades of NC (no credit), W (withdrawn), I (incomplete), F (failure)"
+      "awarder": "University of Hawaii at Manoa",
+      "summary": ["1. Earn a semester GPA of 3.5 or higher based on 12 credits or more", "2. Do not receive grades of NC (no credit), W (withdrawn), I (incomplete), F (failure)]"
     },
     {
       "title": "College Reading & Learning Association (CRLA) Certified Level 1 Tutor",
