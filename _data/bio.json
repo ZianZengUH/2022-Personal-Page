@@ -28,6 +28,10 @@
     {
       "name": "Toolsets/OS",
       "keywords": [ "Windows", "MacOS", "Linus(Ubuntu)", "Unix", "Git/GitHub" ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [ "Arduino,", "Raspberry Pi", "PLC"]
     }
   ],
   "education": [
