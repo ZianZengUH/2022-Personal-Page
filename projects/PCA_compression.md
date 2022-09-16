@@ -33,7 +33,6 @@ Then, I fine-tuned the compressed images by using different number of components
 
 <img width="500px" 
      align="center" 
-     class="img-thumbnail" 
      src="../img/compression_ratio.jpg" >
      
      
