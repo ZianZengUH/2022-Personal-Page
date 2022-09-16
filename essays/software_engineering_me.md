@@ -20,7 +20,7 @@ When I first started middle school in Hawaii, I did not consider in the future I
 
 <figure>
   <img src="../img/essays/arduino_project.png"/>
-  <img width="600px">
+  <img width="300px">
   <align="right">
   <class="rounded float-start pe-4">
   <figcaption>(This is a project that is similar to what I had done) </figcaption>
