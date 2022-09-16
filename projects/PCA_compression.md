@@ -13,7 +13,7 @@ summary: "A lossy image compression project using Principal Component Analysis (
 ---
 
 <img width="400px" 
-      align="left" 
+      align="right" 
      class="rounded float-start pe-4" 
      src="../img/baby_yoda.jpeg" >
      
