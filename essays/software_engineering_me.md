@@ -19,9 +19,8 @@ When I first started middle school in Hawaii, I did not consider in the future I
 
 
 <figure>
-  <img width="600px", align="right", class="rounded float-start pe-4",
-       img src="../img/essays/arduino_project.png"/>
-  <figcaption>(This is a project that is similar to what I had done) </figcaption>
+  <img width="600px", align="right", class="rounded float-start pe-4", img src="../img/essays/arduino_project.png"/>
+  <figcaption align = "center">(This is a project that is similar to what I had done) </figcaption>
 </figure>
 
 Later, my view got turned. Back in 8th Grade, I was interested in math and physics. In my math and physics classes, the teachers wanted to do a unit in programming. In my math class, the teacher introduced me to [Scratch](https://scratch.mit.edu/about), “a coding language with a simple visual interface that allows young people to create digital stories, games, and animations” as noted on the website. Scratch made me realize that I build wonderful things by myself without any other resources except my own creativity and a computer. But Scratch is still a child's play. I found the hands-on experience is interesting but the outcomes are mostly just a simple game that is not very meaningful and useful. Fortunately, at the same time, I encountered real programming languages in a self-study class called “Life-long Learning” and in my physics class. In the “Life-long Learning” class, a school staff member was my mentor and luckily, he was working on building the solar system and aquaponic system for the school which made him self-taught programming language and hardware stuff. He was mainly using Arduino and single-chip to build and control the system. Meanwhile, I was getting in touch with Arduino as well in my physics class, so that was the first time I could use codes to build hands-on things and I found programming meaningful and useful rather than for entertainment only, especially later I was able involved in the school project like building a system with an LCD display to monitor the plants’ conditions. 
