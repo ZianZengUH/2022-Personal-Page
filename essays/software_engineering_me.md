@@ -1,10 +1,10 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "Software Engineering ⊆ Me"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-09
-published: false
+published: true
 labels:
   - Software Engineering
   - Reflection
