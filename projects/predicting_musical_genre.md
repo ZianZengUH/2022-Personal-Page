@@ -18,7 +18,7 @@ In this project, I analyzed a dataset to predict the musical genre of popular so
 
 <img width="1200px" align="center" class="rounded float-start pe-4"  src="../img/genre_features_2.jpg">
 
-<img width="600px" 
+<img width="500px" 
      align="right"
      class="rounded float-start pe-4"  
      src="../img/confusion_matrix.jpg" >
