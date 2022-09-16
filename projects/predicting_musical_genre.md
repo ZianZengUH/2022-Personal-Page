@@ -12,16 +12,14 @@ labels:
 summary: "A machine learning project that uses SVM classification to predict musical genres."
 ---
 
-
-
-<div class="text-center p-4">
-  <img width="700px" src="../img/genre_features.jpg" class="img-thumbnail" >
-  <img width="1200px" src="../img/genre_features_2.jpg" class="img-thumbnail" >
-</div>
+<img width="700px" align="left" class="rounded float-start pe-4"  src="../img/genre_features.jpg">
 
 In this project, I analyzed a dataset to predict the musical genre of popular songs based on the songs characteristics. The characteristics are the followings: artist, track, duration, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time signature. The dataset given was cleaned and filtered for the purpose of focusing building the machine learning models, so the dataset only contains the above features and the targeted feature genre to test the accuracy of the model. However, the given dataset still need to go through the process of encoding, normalization, and spliting the data set in order to build the mahcine learning model. 
 
+<img width="1200px" align="center" class="rounded float-start pe-4"  src="../img/genre_features_2.jpg">
+
 <img width="600px" 
+     align="right"
      class="rounded float-start pe-4"  
      src="../img/confusion_matrix.jpg" >
      
