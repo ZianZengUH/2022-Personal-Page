@@ -13,6 +13,7 @@ summary: "A lossy image compression project using Principal Component Analysis (
 ---
 
 <img width="400px" 
+      align="left" 
      class="rounded float-start pe-4" 
      src="../img/baby_yoda.jpeg" >
      
@@ -20,12 +21,13 @@ In this project, I use Principal Component Analysis to compress an image of baby
 
 In this project, the space of images is referred to as the "original space," and the space of images after PCA decomposition is referred to as the "PCA space." The strategy we're doing is to only use a few components to represent our image in the PCA space. To maintain the visual quality, we want to choose the fewest possible components.
 
-In order to use PCA, I converted the image into a numpy array which will make the image in a black and white form since we are only focus on the image quality rather than the color. After running a Principal Components Analysis on the image with 50 components to compress, we result a ratio of 24.0 between the size of the compressed image and the original image. The first compressed image as shown below:
-
 <img width="500px" 
      align="right" 
      class="rounded float-start pe-4"
      src="../img/compressed_Yoda.jpg" >
+     
+In order to use PCA, I converted the image into a numpy array which will make the image in a black and white form since we are only focus on the image quality rather than the color. After running a Principal Components Analysis on the image with 50 components to compress, we result a ratio of 24.0 between the size of the compressed image and the original image. The first compressed image as shown:
+
 
 Then, I fine-tuned the compressed images by using different number of components. In order to evaluate the impact of the number of components on image quality and visually inspect the compressed images, I plotted the result of compression image for a varying number of components from 5 to 40 with a step of 5. In this way, each subplot represents an image for a given number of components (see figure below).
 
