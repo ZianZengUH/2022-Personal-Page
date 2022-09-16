@@ -3,53 +3,28 @@ layout: essay
 type: essay
 title: "Software Engineering ⊆ Me"
 # All dates must be YYYY-MM-DD format!
-date: 2022-09-09
+date: 2022-09-01
 published: true
 labels:
   - Software Engineering
   - Reflection
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
+<img width="200px" class="rounded float-start pe-4" <em>image_caption</"Note: this is a project that is similar to what I had done"> src="../img/essays/arduino_project.png">
 
-*Difficulty: a thing that is hard to accomplish, deal with, or understand.*
 
-One of my friends asked the question earlier last week -- why is it so hard to be an officer for the student branch? Why is so hard compared to working at my on-campus job? This question came after he struggled a little with bookkeeping for the student organization.
+## Where the Journey Began
 
-Now I gave him the standard answer - being an officer of an organization requires that you manage your time between school and work. There isn't anyone telling you what to do. It's the answer any good mentor would give, and is mostly true.
+When I first started middle school in Hawaii, I did not consider in the future I would do anything with coding or even computers at all, because back in China, most of the teachers, students, and parents think that a computer is mostly an entertainment tool that can cause negative effects on students' study performance. Thus, based on my limited experience, I have a bias that, in terms of students, computers are for the bad kids who don’t want to study but just play video games. Then, coding is only equivalent to creating video games. Therefore, I wasn’t interested in studying computer skills or coding.
 
-But the more I though about it, the more I wondered to myself...damn that's a really great question; it's one that deserves some more thought. Most people I think stop at the answer I gave previously - he obviously isn't managing his time properly.
+Later, my view got turned. Back in 8th Grade, I was interested in math and physics. In my math and physics classes, the teachers wanted to do a unit in programming. In my math class, the teacher introduced me to [Scratch](https://scratch.mit.edu/about), “a coding language with a simple visual interface that allows young people to create digital stories, games, and animations” as noted on the website. Scratch made me realize that I build wonderful things by myself without any other resources except my own creativity and a computer. But Scratch is still a child's play. I found the hands-on experience is interesting but the outcomes are mostly just a simple game that is not very meaningful and useful. Fortunately, at the same time, I encountered real programming languages in a self-study class called “Life-long Learning” and in my physics class. In the “Life-long Learning” class, a school staff member was my mentor and luckily, he was working on building the solar system and aquaponic system for the school which made him self-taught programming language and hardware stuff. He was mainly using Arduino and single-chip to build and control the system. Meanwhile, I was getting in touch with Arduino as well in my physics class, so that was the first time I could use codes to build hands-on things and I found programming meaningful and useful rather than for entertainment only, especially later I was able involved in the school project like building a system with an LCD display to monitor the plants’ conditions. 
 
-Here's what I think: the difficult things will always be difficult.
+<img width="200px" class="rounded float-start pe-4" src="../img/essays/alpha_go.png">
 
-## In the context of programming
+In the same year, in my physics class, we were exploring autonomous vehicles, and AlphaGo just announced its advent to the world by defeating multiple world-class Go players. This completely changed my mind about the potential of computers again and opened my eyes to the path of artificial intelligence. I was a big fan of Chinese chess (also known as Xiangqi), with a game tree complexity of approximately 10^150 whereas international chess has a game tree complexity of approximately 10^123, but Go has a complexity of about 10^360 (for more details, see [game complexity](https://en.wikipedia.org/wiki/Game_complexity#Complexities_of_some_well-known_games). At that time, I was learning how to play Go in my “Life-long Learning” class, and this news was an extreme shock to me because Go is one of the most complex games in the world as we see the exponent in the game tree complexity is much larger than other games. This means that once Go, the last defender of human logical calculations and wisdom, got overcome by the computer, then theoretically there is no way for humans to defeat the computers in such games or in calculations wise even though humans learned this game from thousands of years ago and obtained so many experiences and knowledge. Meanwhile, in my physics class,I studied that based on mathematical modeling and simulations, autonomous vehicles have much lower rates of accidents compared with the current human accident rate and there are also many other benefits such as freeing the time and energy from driving, eliminating traffic congestion, parking spaces issues, etc. In addition, my stepfather was a firefighter and he mentioned how AI may reduce the risks for firefighters during fire incidents, such as helping in searching for trapped people, finding safe paths, and combining with robotics, the firefighters may have help on carrying heavy equipment and people in the fire scenes which will greatly reduce their chance of injuries and deaths. Since then, I see the value in computers, in software engineering, and especially in the field of AI. It is one of the most powerful world-changing tools in the 21st century, and most likely it is the most powerful tool than anything else. It is not only for entertainment in the virtual world. It can bring meaningful things to people in real life and it may even give people hope and save lives in certain situations. That’s the moment and reason, I wanted to study computer science.
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## Moving Forward
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
+I chose to major in computer science and now I am a junior in the data science track which is the track that is more related to studying AI. Since I have only taken one class related to AI - ICS 235 intro to machine learning methods, I would like to explore further in the field of machine learning by taking related courses, accomplishing related projects, and hopefully, attain one or more intern/work experiences related to AI or data science. Through these processes, I hope I can learn different models in machine learning and get a deeper understanding of the application of AI/machine learning. Currently, I am interested in the field of computer vision and deep learning which are known as the “eyes” and “brain” for AI. By acquiring such knowledge, I hope I can participate in this world-changing trend, a trend that will make the world a better place.
 
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
-
-## In the context of relationships
-
-So in the end, we realize that all engineering and programming is there for a reason - to serve human needs. Maybe that's why those things are difficult, because they both involve humans and are for humans.
-
-Relationships, regardless if they're romantic or not take work. Humans are fickle creatures and relationships can come and go with the wind. To properly maintain something over time requires work. Family takes work. Marriage takes work. We live to figure out what works and what doesn't and hope that as we move forward we're improving.
-
-Relationships have always been difficult, and by nature will continue to be so.
-
-## Okay!
-
-So back to the original premise; why is being one of the club officers so difficult?
-
-And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
-
-Ultimately the question you should really ask yourself if something if particularly difficult is then "is it worth it"? That is something that is context specific and only you can answer yourself.
