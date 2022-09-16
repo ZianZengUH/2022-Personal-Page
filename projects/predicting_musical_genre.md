@@ -16,7 +16,7 @@ summary: "A machine learning project that uses SVM classification to predict mus
 
 In this project, I analyzed a dataset to predict the musical genre of popular songs based on the songs characteristics. The characteristics are the followings: artist, track, duration, popularity, danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, time signature. The dataset given was cleaned and filtered for the purpose of focusing building the machine learning models, so the dataset only contains the above features and the targeted feature genre to test the accuracy of the model. However, the given dataset still need to go through the process of encoding, normalization, and spliting the data set in order to build the mahcine learning model. 
 
-<img width="1200px" align="center" class="rounded float-start pe-4"  src="../img/genre_features_2.jpg">
+<img width="1200px" align="center" class="img-thumbnail"  src="../img/genre_features_2.jpg">
 
 <img width="500px" 
      align="right"
