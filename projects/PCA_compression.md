@@ -13,7 +13,7 @@ summary: "A lossy image compression project using Principal Component Analysis (
 ---
 
 <img width="400px" 
-      align="right" 
+     align="right" 
      class="rounded float-start pe-4" 
      src="../img/baby_yoda.jpeg" >
      
@@ -22,7 +22,7 @@ In this project, I use Principal Component Analysis to compress an image of baby
 In this project, the space of images is referred to as the "original space," and the space of images after PCA decomposition is referred to as the "PCA space." The strategy we're doing is to only use a few components to represent our image in the PCA space. To maintain the visual quality, we want to choose the fewest possible components.
 
 <img width="500px" 
-     align="right" 
+     align="left" 
      class="rounded float-start pe-4"
      src="../img/compressed_Yoda.jpg" >
      
