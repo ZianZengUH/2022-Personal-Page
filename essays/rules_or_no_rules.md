@@ -8,7 +8,6 @@ published: true
 labels:
   -  Coding Standards
   -  ESLints
-  - 
 ---
 
 <img width="400px" class="rounded float-start pe-4" src="../img/essays/ESLint.jpeg">
