@@ -12,7 +12,7 @@ labels:
 
 # Rules Are Painful
 
-<img width="400px" class="rounded float-start pe-4" src="../img/essays/ESLint.jpeg">
+<img width="400px" src="../img/essays/ESLint.jpeg">
 
 Have you ever gotten bothered by some rules and thought that why do I have to follow them? Following rules is always a hard and sometimes even painful thing to do. Also, rules are everywhere in our lives and we follow many of them every day. It is not an exception in the world of software engineering and it has a name called “code standards”. For example, the following piece of code (from Module 10 - Experience 25) contains 28 errors according to a code analysis tool - ESlint:
 
