@@ -60,10 +60,10 @@ That’s so many errors that we need to fix! In addition, from my own experience
 # Why Should We Follow Rules?
 
 Let’s talk about what is rule first, specifically it is coding standards in the world of software engineering. According to *Geeks for Geeks*, coding standards are the rules that good software development organizations developed to enable their programmers to maintain a well-defined and standard style of coding. There are four main reasons to maintain such a style of coding: 
-A coding standard gives a uniform appearance to the codes written by different engineers.
-It improves the readability, and maintainability of the code and it reduces complexity also.
-It helps in code reuse and helps to detect errors easily.
-It promotes sound programming practices and increases the efficiency of the programmers. 
+1. A coding standard gives a uniform appearance to the codes written by different engineers.
+2. It improves the readability, and maintainability of the code and it reduces complexity also.
+3. It helps in code reuse and helps to detect errors easily.
+4. It promotes sound programming practices and increases the efficiency of the programmers. 
 [Coding Standards and Guidelines](https://www.geeksforgeeks.org/coding-standards-and-guidelines/)
 
 If these reasons are too broad for you, let’s imagine a world without implementing coding standards. There are typos all over the place, semicolons are missing from certain places, variables are named randomly without any meaning, lines are not aligned properly, functions are half-finished and missing curly brackets, and so on. For many big companies who have millions of codes, how can the new software engineers who just get on the project able to understand what’s going on, how can the software engineers fix and maintain the program when they can’t even read what their co-workers’ or even themselves’ codes? Simply attempting to understand the code may take hours and hours that may be even longer than rewriting the program. For example, can you read and understand the codes we mentioned earlier easily? For most people, it is probably not very easy to understand what’s going on because the code doesn’t follow the code standard. How about the following piece of code after we modified it to follow the ESlint code standard:
