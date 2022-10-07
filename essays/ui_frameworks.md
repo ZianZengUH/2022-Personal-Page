@@ -27,7 +27,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
   <div class="row">
     <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit;" class="ui floated rounded left image">
       <div class="ui medium purple right ribbon label">
-        Raw HTML and CSS Version:
+        'Raw HTML and CSS Version:'
       </div>
       <center><img src="../img/essays/raw_html.jpg" alt="Raw HTML CSS page" style="width: 80%; height: auto;"></center>
     </div>
@@ -35,7 +35,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
   <div class="row">
     <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit" class="ui floated rounded right image">
       <div style="position-y: 1em" class="ui medium green right ribbon label">
-        Bootstrap 5 Version:
+        'Bootstrap 5 Version:'
       </div>
        <center><img src="../img/essays/boostrap5.jpg" alt="Bootstrap 5 page" style="width: 80%; height: auto;"></center>
     </div>
@@ -50,7 +50,7 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
   <div class="row">
     <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit;" class="ui floated rounded left image">
       <div class="ui medium purple right ribbon label">
-        Original Oneplus Official Site:
+        `Original Oneplus Official Site:`
       </div>
         <center><img src="../img/essays/oneplus_web1.jpg" alt="Original" style="width: 80%; height: auto;"></center>
         <center><img src="../img/essays/oneplus_web2.jpg" alt="Original" style="width: 80%; height: auto;"></center>
@@ -59,7 +59,7 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
   <div class="row">
     <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit" class="ui floated rounded right image">
       <div style="position-y: 1em" class="ui medium green right ribbon label">
-         Recreation of Oneplus Official Site:
+         `Recreation of Oneplus Official Site:`
       </div>
         <center><img src="../img/essays/oneplus_boostrap1.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;"></center>
         <center><img src="../img/essays/oneplus_boostrap2.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;"></center>
