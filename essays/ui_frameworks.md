@@ -29,7 +29,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
       <div class="ui medium purple right ribbon label">
         Raw HTML and CSS Version:
       </div>
-      <img src="../img/essays/raw_html.jpg" alt="Raw HTML CSS page" style="width: 80%; height: auto;">
+      <center><img src="../img/essays/raw_html.jpg" alt="Raw HTML CSS page" style="width: 80%; height: auto;"></center>
     </div>
   </div>
   <div class="row">
@@ -37,7 +37,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
       <div style="position-y: 1em" class="ui medium green right ribbon label">
         Bootstrap 5 Version:
       </div>
-    <img src="../img/essays/boostrap5.jpg" alt="Bootstrap 5 page" style="width: 80%; height: auto;">
+       <center><img src="../img/essays/boostrap5.jpg" alt="Bootstrap 5 page" style="width: 80%; height: auto;"></center>
     </div>
   </div>
 </div>
@@ -52,8 +52,8 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
       <div class="ui medium purple right ribbon label">
         Original Oneplus Official Site:
       </div>
-        <img src="../img/essays/oneplus_web1.jpg" alt="Original" style="width: 80%; height: auto;">
-        <img src="../img/essays/oneplus_web2.jpg" alt="Original" style="width: 80%; height: auto;">
+        <center><img src="../img/essays/oneplus_web1.jpg" alt="Original" style="width: 80%; height: auto;"></center>
+        <center><img src="../img/essays/oneplus_web2.jpg" alt="Original" style="width: 80%; height: auto;"></center>
     </div>
   </div>
   <div class="row">
@@ -61,8 +61,8 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
       <div style="position-y: 1em" class="ui medium green right ribbon label">
          Recreation of Oneplus Official Site:
       </div>
-        <img src="../img/essays/oneplus_boostrap1.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;">
-        <img src="../img/essays/oneplus_boostrap2.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;">
+        <center><img src="../img/essays/oneplus_boostrap1.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;"></center>
+        <center><img src="../img/essays/oneplus_boostrap2.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;"></center>
     </div>
   </div>
 </div>
