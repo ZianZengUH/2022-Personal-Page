@@ -19,13 +19,13 @@ I had not code with any front-end languages like HTML and CSS before, so explori
 
 # Stepping into Bootstrap 5
 
- <img src="../img/essays/lets-talk-about-bootstrap.png" class="rounded float-start pe-4" width="19em">
+ <img src="../img/essays/lets-talk-about-bootstrap.png" class="rounded float-start pe-4" width="300px">
  
 UI frameworks like Bootstrap 5 are the solution to this problem. When I first started to use Bootstrap, I feel like it’s a lifesaver, because simply spending a few minutes of adding a several classes like `container` and `justify-content-end` is worthy the 20 to 30 minutes in raw HTML and CSS to create my own wrapper classes and doing micro-tuning to adjust the classes. In addition, the websites appear to be much more organized and professional. For example, the following images are a comparison of the same website that I built. One is built with raw HTML and CSS, and another one is built with Bootstrap 5.
 
 <div class="ui grid container">
   <div class="row">
-    <div style="padding-top: 2em; width: inherit;" class="ui floated rounded left image">
+    <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit;" class="ui floated rounded left image">
       <div class="ui medium purple right ribbon label">
         Raw HTML and CSS Version:
       </div>
@@ -33,7 +33,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
     </div>
   </div>
   <div class="row">
-    <div style="padding-top: 2em; width: inherit" class="ui floated rounded right image">
+    <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit" class="ui floated rounded right image">
       <div style="position-y: 1em" class="ui medium green right ribbon label">
         Bootstrap 5 Version:
       </div>
@@ -48,7 +48,7 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
 
 <div class="ui grid container">
   <div class="row">
-    <div style="padding-top: 2em; width: inherit;" class="ui floated rounded left image">
+    <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit;" class="ui floated rounded left image">
       <div class="ui medium purple right ribbon label">
         Original Oneplus Official Site:
       </div>
@@ -57,7 +57,7 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
     </div>
   </div>
   <div class="row">
-    <div style="padding-top: 2em; width: inherit" class="ui floated rounded right image">
+    <div style="text-align:center; padding-top: 1.5em; padding-bottom: 1.5em; width: inherit" class="ui floated rounded right image">
       <div style="position-y: 1em" class="ui medium green right ribbon label">
          Recreation of Oneplus Official Site:
       </div>
