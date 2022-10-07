@@ -19,7 +19,7 @@ I had not code with any front-end languages like HTML and CSS before, so explori
 
 # Stepping into Bootstrap 5
 
- <img src="../img/essays/lets-talk-about-bootstrap.png">
+ <img src="../img/essays/lets-talk-about-bootstrap.png" class="rounded float-start pe-4" width="19em">
  
 UI frameworks like Bootstrap 5 are the solution to this problem. When I first started to use Bootstrap, I feel like it’s a lifesaver, because simply spending a few minutes of adding a several classes like `container` and `justify-content-end` is worthy the 20 to 30 minutes in raw HTML and CSS to create my own wrapper classes and doing micro-tuning to adjust the classes. In addition, the websites appear to be much more organized and professional. For example, the following images are a comparison of the same website that I built. One is built with raw HTML and CSS, and another one is built with Bootstrap 5.
 
@@ -29,7 +29,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
       <div class="ui medium purple right ribbon label">
         Raw HTML and CSS Version:
       </div>
-      <img src="../img/essays/raw_html.jpg" alt="Raw HTML CSS page">
+      <img src="../img/essays/raw_html.jpg" alt="Raw HTML CSS page" style="width: 80%; height: auto;">
     </div>
   </div>
   <div class="row">
@@ -37,7 +37,7 @@ UI frameworks like Bootstrap 5 are the solution to this problem. When I first st
       <div style="position-y: 1em" class="ui medium green right ribbon label">
         Bootstrap 5 Version:
       </div>
-    <img src="../img/essays/boostrap5.jpg" alt="Bootstrap 5 page">
+    <img src="../img/essays/boostrap5.jpg" alt="Bootstrap 5 page" style="width: 80%; height: auto;">
     </div>
   </div>
 </div>
@@ -52,8 +52,8 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
       <div class="ui medium purple right ribbon label">
         Original Oneplus Official Site:
       </div>
-        <img src="../img/essays/oneplus_web1.jpg" alt="Original">
-        <img src="../img/essays/oneplus_web2.jpg" alt="Original">
+        <img src="../img/essays/oneplus_web1.jpg" alt="Original" style="width: 80%; height: auto;">
+        <img src="../img/essays/oneplus_web2.jpg" alt="Original" style="width: 80%; height: auto;">
     </div>
   </div>
   <div class="row">
@@ -61,8 +61,8 @@ Lastly, I was able to use the power of Bootstrap 5 to recreate a professional we
       <div style="position-y: 1em" class="ui medium green right ribbon label">
          Recreation of Oneplus Official Site:
       </div>
-        <img src="../img/essays/oneplus_boostrap1.jpg" alt="Bootstrap 5 Recreation">
-        <img src="../img/essays/oneplus_boostrap2.jpg" alt="Bootstrap 5 Recreation">
+        <img src="../img/essays/oneplus_boostrap1.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;">
+        <img src="../img/essays/oneplus_boostrap2.jpg" alt="Bootstrap 5 Recreation" style="width: 80%; height: auto;">
     </div>
   </div>
 </div>
