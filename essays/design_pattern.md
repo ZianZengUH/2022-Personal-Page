@@ -12,7 +12,6 @@ labels:
 ---
 
 # Don’t reinvent the wheel
-<img src="../img/essays/wheels.jpg.jpg">
 
 When you encounter a challenging problem, you may be very tempted to immediately get hands-on and solve the problem in your own way without doing any research, but this may not be the best approach to the problem. For example, if you did not know the best shape for wheels for a car or bike is a circle, then you instantly went to build different shapes of wheels like triangular, square, and hexagon wheels, you would spend a lot of time to think about the design, implement the design, and test the design. On the other hand, if you learned that your predecessor of wheel designers had already spent the extensive amount of time that you could spend into those head-banging processes and figured out the current best generic solution for this problem, then you don’t have to go through the same process again which will save you significant amounts of time and it may also get a better result then reinvent the wheel entirely from scratch by yourself. This is the idea of the design pattern.
 
