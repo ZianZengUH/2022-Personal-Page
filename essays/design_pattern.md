@@ -11,7 +11,7 @@ labels:
 
 ---
 
-<img width="800px" class="rounded center pe-4" src="../img/essays/wheels.jpg">
+<img width="800px" align="center" class="rounded pe-4" src="../img/essays/wheels.jpg">
 
 # Don’t reinvent the wheel
 
