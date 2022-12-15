@@ -10,10 +10,14 @@ labels:
   -  Agile Project Management
   -  Coding Standards
 ---
+<img width="400px" src="../img/essays/ESLint.jpeg">
+
+# Web Application Development and Beyond
+
 
 # Agile Project Management
 
 
 # Coding Standards
 
-<img width="400px" src="../img/essays/ESLint.jpeg">
+
