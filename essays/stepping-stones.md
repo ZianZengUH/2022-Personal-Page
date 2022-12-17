@@ -26,7 +26,7 @@ Agile project management is an iterative method of carrying out a project over t
 
 # Coding Standards
 
-<img width="700px" align="right" class="rounded float-start pe-4"  src="../img/essays/code-main.jpg">
+<img width="700px" align="right" class="rounded float pe-4"  src="../img/essays/code-main.jpg">
 
 Another great fundamental software engineering concept that I take away from this class is coding standards. Coding standards are the rules that good software development organizations developed to enable their programmers to maintain a well-defined and standard style of coding. Even though, I did experience using code standards for other languages like Java, C, and python (for example, naming convention, indentation, class/function standard, commenting, Javadoc), it wasn’t very strict as what we experienced with Javascript and HTML in this class. It was more like a recommendation thing to do if it does not cause syntax errors or crushes. In ICS 314, we must follow the code standard of Eslint which is a static code analysis tool and a plugin in our IDE (integrated development environment) IntelliJ IDEA. Eslint has a very strict code standard. For example, using a double quote for strings is correct in syntax and it will not cause any error that will crush the program, Eslint will popup errors to notify you to fix it. There are many other things that this that you don’t have to do it for the code to run properly but Eslint is strictly required, such as you must add a space after a curly bracket, you must add a new line at the end of a file, and you must use template string to concatenate the strings with variables rather than using a plus sign. All of these things are very annoying especially when you are not familiar with this coding standard, but it does come with the benefit of maintaining better readability which helped me numerous times to save time on identifying bugs in my codes. Furthermore, it also helped me to be able to read my teammates’ codes and vice versa when we were working on team projects. Thus, the efforts on maintaining code style and code standards are well worth it.
 
@@ -37,6 +37,7 @@ In summary, these fundamental software engineering concepts that I learned in IC
 
 
 _**References**_
+
 APM. “What Is Agile Project Management?” APM, https://www.apm.org.uk/resources/find-a-resource/agile-project-management/.  
 CDC. “PMG.” Centers for Disease Control and Prevention, Centers for Disease Control and Prevention, https://www2a.cdc.gov/cdcup/library/pmg/other/isu_description.htm.  
 
