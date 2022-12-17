@@ -12,10 +12,14 @@ labels:
 
 # Rules Are Painful
 
-<img width="400px" src="../img/essays/ESLint.jpeg">
+<p align="center">
+    <img width="400px" src="../img/essays/ESLint.jpeg">
+</p>
+
 
 Have you ever gotten bothered by some rules and thought why do I have to follow them? Following rules is always a hard and sometimes even painful thing to do. Also, rules are everywhere in our lives and we follow many of them every day. It is not an exception in the world of software engineering and it has a name called “code standards”. For example, the following piece of code (from Module 10 - Experience 25) contains 28 errors according to a code analysis tool - ESlint:
 
+<p align="center">
 ```js
 var foo = 3;
 const car = "Toyota";
@@ -52,7 +56,7 @@ class MyClass {
 const TheTitle = 'The Title';
 
 export default {  obj, stuff, zumba, f, zob, MyClass, TheTitle };
-```
+```</p>
 
 That’s so many errors that we need to fix! In addition, from my own experience, I got some errors when I was writing the code even though my code actually ran correctly as I wanted. The errors are mostly coding style issues like string variables need to use single quotes instead of double quotes, and there needs to be space after parentheses etc. Trying to fix these errors may be time consuming and tedious. If these rules are complicated and painful to follow, why do we have these rules in the first place and why should we still obey them? 
 

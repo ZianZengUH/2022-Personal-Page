@@ -10,8 +10,9 @@ labels:
   -  Web Design
 
 ---
-
-<img width="800px" align="center" class="rounded pe-4" src="../img/essays/wheels.jpg">
+<p align="center">
+    <img width="1000px" align="center" class="rounded pe-4" src="../img/essays/wheels.jpg">
+</p>
 
 # Don’t reinvent the wheel
 
