@@ -14,10 +14,7 @@ summary: "A web application for University of Hawaii at Monoa (UHM) ICS students
 ---
 <br />
 # Project Introduction
-<img
-align="center"
-class="img-fluid"
-src="../img/study_partner/landing.png" > 
+<img align="center" class="img-fluid" src="../img/study_partner/landing.png" > 
 <figcaption align = "center"><b>Landing Page</b></figcaption>
 <br />
 
