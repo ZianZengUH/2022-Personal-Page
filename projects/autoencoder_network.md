@@ -32,10 +32,10 @@ In this project, I tried to solve this unsupervised problems with neural network
 
 <img width="500px" 
      align="center" 
-     class="rounded float-start pe-4" 
+     class="img-fluid" 
      src="../img/autoencoder.png" >
 
-<img width="600px"
+<img width="500px"
 align="center"
 class="img-thumbnail"
 src="../img/PCA.jpg" >
