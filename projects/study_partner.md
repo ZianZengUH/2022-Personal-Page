@@ -55,8 +55,8 @@ src="../img/study_partner/JoinSession.png" >
 # My Contribution
 
 <div align="center" class="text-center p-4">
-  <img width="700px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
-  <img width="700px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
+  <img src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
+  <img src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
   <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
 </div>
 
