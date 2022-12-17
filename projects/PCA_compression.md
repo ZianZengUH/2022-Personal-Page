@@ -14,7 +14,7 @@ summary: "A lossy image compression project using Principal Component Analysis (
 
 <div class="text-center p-4">
   <img width="400px" src="../img/baby_yoda.jpeg" class="img-thumbnail" >
-  <img width="400px" src="../img/compressed_Yoda.jpg" class="img-thumbnail" >
+  <img width="500px" src="../img/compressed_Yoda.jpg" class="img-thumbnail" >
 </div>     
 
 In this project, I use Principal Component Analysis to compress an image of baby yoda and we only have a single picture to compress. It denotes that we have n pixels of features and a single sample. If we wish to use PCA to effectively represent our data, we have an issue. In light of this, this method will treat the image as a sample by feature matrix, with each row being a sample and each column representing a feature. 

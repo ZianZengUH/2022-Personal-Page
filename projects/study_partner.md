@@ -13,7 +13,7 @@ labels:
 summary: "A web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
 ---
 # Project Introduction
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/landing.png" > 
@@ -26,7 +26,7 @@ The goals for Study Partner are:
 - To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
 - To encourage face-to-face interaction among ICS students.
 
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/YourProfile.png" >
@@ -34,7 +34,7 @@ src="../img/study_partner/YourProfile.png" >
 
 Our approach to this problem is that students can register or log in the website using email. They are able to set up their profiles as well as look at other people's profiles. The profile enables each student to list courses they have taken and for which they are willing to attempt to provide help, and courses they are currently taking and for which they might need help. 
 
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/Profiles.png" >
@@ -44,7 +44,7 @@ src="../img/study_partner/Profiles.png" >
 1. Individual: join a study session that you like to attend in the current day or in the future
 2. Group: through "All Profiles" page contact people you would like to plan a session with or plan a group session with people you know
 
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/JoinSession.png" >
@@ -53,14 +53,14 @@ src="../img/study_partner/JoinSession.png" >
 # My Contribution
 
 <div class="text-center p-4">
-  <img width="500px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
-  <img width="1000px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
-  <img width="500px" src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
+  <img width="800px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
+  <img width="800px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
+  <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
 </div>
 
 In this project, I helped design and create the landing page. I designed all pages' (except home pages and log-in pages) backgrounds and headings.
 
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/CreateSession.png" >
@@ -73,7 +73,7 @@ In addition, I helped to design the Mongo database collection that contain all o
 > > - enable join button to add current user's email into attendee array.
 > > - fix adding same email to attendee array.
 
-<img width="1000px"
+<img
 align="center"
 class="img-fluid"
 src="../img/study_partner/Calendar.png" >
