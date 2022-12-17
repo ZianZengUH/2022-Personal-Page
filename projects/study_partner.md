@@ -12,14 +12,14 @@ labels:
   - Digital Ocean
 summary: "A web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
 ---
-< br />
+<br />
 # Project Introduction
 <img
 align="center"
 class="img-fluid"
 src="../img/study_partner/landing.png" > 
 <figcaption align = "center"><b>Landing Page</b></figcaption>
-< br />
+<br />
 
 There is a problem in UHM that ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors. Therefore, we decided to create a solution for this issue as our final project for ICS 314 - a web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic.
 
@@ -33,7 +33,7 @@ align="center"
 class="img-fluid"
 src="../img/study_partner/YourProfile.png" >
 <figcaption align = "center"><b>My Profile Page</b></figcaption>
-< br />
+<br />
 
 Our approach to this problem is that students can register or log in the website using email. They are able to set up their profiles as well as look at other people's profiles. The profile enables each student to list courses they have taken and for which they are willing to attempt to provide help, and courses they are currently taking and for which they might need help. 
 
@@ -42,7 +42,8 @@ align="center"
 class="img-fluid"
 src="../img/study_partner/Profiles.png" >
 <figcaption align = "center"><b>All Profiles Page</b></figcaption>
-< br />
+<br />
+
 2 styles of using Study Partner:
 1. Individual: join a study session that you like to attend in the current day or in the future
 2. Group: through "All Profiles" page contact people you would like to plan a session with or plan a group session with people you know
@@ -52,13 +53,13 @@ align="center"
 class="img-fluid"
 src="../img/study_partner/JoinSession.png" >
 <figcaption align = "center"><b>Join Session Page</b></figcaption>
-< br />
+<br />
 
 # My Contribution
 
-<div class="text-center p-4">
-  <img width="800px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
-  <img width="800px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
+<div align="center" class="text-center p-4">
+  <img width="700px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
+  <img width="700px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
   <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
 </div>
 
@@ -77,7 +78,7 @@ In addition, I helped to design the Mongo database collection that contain all o
 > > - enable join button to add current user's email into attendee array.
 > > - fix adding same email to attendee array.
 
-< br />
+<br />
 
 <img
 align="center"
@@ -86,7 +87,7 @@ src="../img/study_partner/Calendar.png" >
 <figcaption align = "center"><b>Calendar Page</b></figcaption>
 
 Lastly, I built the Calendar page which can display the current user's attended sessions by using an open-source DayPilot React calendar component. The calendar will display a weekly calendar on the week that the user is in. The user can also pick different weeks through the month picker.
-< br />
+<br />
 
 # My Takeaways
 
