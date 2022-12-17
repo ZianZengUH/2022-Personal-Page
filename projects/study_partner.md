@@ -59,7 +59,7 @@ src="../img/study_partner/JoinSession.png" >
     <figcaption align = "center"><b>Leaderboard Page</b></figcaption>
 <br />
   <img src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
-    <figcaption align = "center"><b>View eport Page</b></figcaption>
+    <figcaption align = "center"><b>View Report Page</b></figcaption>
 <br />
   <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
     <figcaption align = "center"><b>Contact Admin Page</b></figcaption>
