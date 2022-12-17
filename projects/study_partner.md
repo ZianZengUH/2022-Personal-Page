@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/neural_network.png
+image: img/study_partner/study-partner-logo.png
 title: "Study Partner"
 date: 2022
 published: true
@@ -10,48 +10,82 @@ labels:
   - MongoDB
   - Javascript 
   - Digital Ocean
-summary: "An web application for UHM ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
+summary: "A web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
 ---
+# Project Introduction
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/landing.png" > 
+<figcaption align = "center"><b>Landing Page</b></figcaption>
+
+There is a problem in UHM that ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors. Therefore, we decided to create a solution for this issue as our final project for ICS 314 - a web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic.
+
+The goals for Study Partner are:
+- To encourage use of ICS space among ICS students
+- To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.
+- To encourage face-to-face interaction among ICS students.
+
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/YourProfile.png" >
+<figcaption align = "center"><b>My Profile Page</b></figcaption>
+
+Our approach to this problem is that students can register or log in the website using email. They are able to set up their profiles as well as look at other people's profiles. The profile enables each student to list courses they have taken and for which they are willing to attempt to provide help, and courses they are currently taking and for which they might need help. 
+
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/Profiles.png" >
+<figcaption align = "center"><b>All Profiles Page</b></figcaption>
+
+2 styles of using Study Partner:
+1. Individual: join a study session that you like to attend in the current day or in the future
+2. Group: through "All Profiles" page contact people you would like to plan a session with or plan a group session with people you know
+
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/JoinSession.png" >
+<figcaption align = "center"><b>Join Session Page</b></figcaption>
+
+# My Contribution
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
+  <img width="200px" src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
+  <img width="200px" src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
+</div>
+
+In this project, I helped design and create the landing page. I designed all pages' (except home pages and log-in pages) backgrounds and headings.
+
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/CreateSession.png" >
+<figcaption align = "center"><b>Create Session Page</b></figcaption>
+
+In addition, I helped to design the Mongo database collection that contain all of the sessions' data and how to insert the proper data through the form in Create Session Page using Publication and Meteor method design. I also helped on creating Join Session page regarding to the card display, data extraction from the database, and fixed Mongo database issues, such as 
+> - display attendee list in the cards.
+> - separate the MakeCard function from Join Session to create MakeCard Component, update MakeCard Component to fix the following issues:
+> > - fix can't display default session collection.
+> > - enable join button to add current user's email into attendee array.
+> > - fix adding same email to attendee array.
+
+<img width="500px"
+align="center"
+class="img-fluid"
+src="../img/study_partner/Calendar.png" >
+<figcaption align = "center"><b>Calendar Page</b></figcaption>
+
+Lastly, I built the Calendar page which can display the current user's attended sessions by using an open-source DayPilot React calendar component. The calendar will display a weekly calendar on the week that the user is in. The user can also pick different weeks through the month picker.
 
 
+# My Takeaways
 
-<img width="500px" 
-     class="rounded float-start pe-4" 
-     src="../img/cancers_labeled.jpg" >
-     
-In this project, I analyzed a gene expression dataset from the Cancer Genome Atlas (TCGA) Research Network, a landmark cancer genomics program, molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. Data was downloaded from: [UCI website](https://archive.ics.uci.edu/ml/datasets/gene+expression+cancer+RNA-Seq).
+Since I attempted Hawaii Code Challenge (HACC) 2022 using Meteor framework with MongoDB, this was not my first time doing a big project with a team using what I learned in ICS 314, but it is my second time of doing a big web application project with a team by using similar skills and it was a successful one as well! First of all, I was very grateful when we finished this project because in HACC we had team members unable to continue participate in the competition due to force majeure factors like sickness. Second, this is my first time truly use the power of agile project management in a team, specifically issue-driven project management through GitHub. We were able to divide, manage, and complete the reverent issues/tasks rather than trying to figure out and solve things along the way. In addition, I get more comfortable with Javascript, HTML, json, Meteor React framework, Mongo database. I also get a deeper understanding on these tools, web application design & development (like debugging using Eslint, console, and inspection of the HTML elements; user subscriptions; default data; server deployment), and fundamental software engineering skills (such as coding standards, open source software development, configuration management, and user interface frameworks)
 
-Patients with various cancers (breast, lung, kidney, etc.) provided tumor samples, and the cells in the tissues were sequenced. The sequencing results can be displayed as a table after some data processing, where the rows represent our samples and the columns represent the frequency with which RNA from a certain gene was found (in other words, each column correspond to the expression level of a gene).
-
-The goal of the project is to answer the folliowing questions:
-- Can we distinguish between different cancer types by looking at the gene expression level of a tissue?
-- Can we identify the different types of samples if we don't know how many types of cancer we have?
-
-In fact, single-cell RNA sequencing has a direct application to this issue. Cancer patients' blood samples frequently contain a mixture of tumor cells and other cells (e.g. immune cells). Sorting through those is crucial if we want to understand the differences between healthy and malignant cells.
-
-In this project, I tried to solve this unsupervised problems with neural network. To accomplish this, we will create a straightforward autoencoder to separate out 2 components from our features (similar to PCA components). An autoencoder network uses a set of features as input and makes predictions based on those same features. The network's architecture imposes restrictions that make it difficult to recover the initial values. In this instance, we'll employ a single hidden layer containing two neurons: In order to reconstruct the approximately 9000 feature values from the selected features as accurately as feasible, the network must first encode the information from those 9000 features into 2 values (see figure below). Intuitively, the hidden layer should encode significant information about our samples if the network is successful in reconstructing the original values.
-
-<img width="600px" 
-     align="center" 
-     class="rounded float-start pe-4" 
-     src="../img/autoencoder.png" >
-
-In this project, I created a scatter plot of the data translated into the 2D space generated by the first two principle components using PCA on the scaled data. Each sample are colored using the class labels.
-
-<img width="500px" 
-     align="center"
-     class="img-thumbnail"
-     src="../img/PCA.jpg" >
-
-In addition, I trained a regression neural network with a 2-neuron hidden layer on the scaled data. I computed the hidden representation of each sample with N_samples-by-2 dimensional array and plotted the 2D representation of the data computed and color them by cluster label as the following graph.
-
-<img width="500px" 
-     align="center"
-     class="img-fluid"
-     src="../img/hidden_features.jpg" >
-     
-     
-For this project, I learned how to use a neural network to solve unsupervised problems, specifically Autoencoder network. Also, I learned how does Principal Component Analysis (PCA) can be used in helping generating the neural network.
 
 
 You can learn more at project home page: [Study Partner](https://study-partner.github.io/).
