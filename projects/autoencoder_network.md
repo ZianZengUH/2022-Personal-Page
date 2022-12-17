@@ -30,12 +30,12 @@ In fact, single-cell RNA sequencing has a direct application to this issue. Canc
 
 In this project, I tried to solve this unsupervised problems with neural network. To accomplish this, we will create a straightforward autoencoder to separate out 2 components from our features (similar to PCA components). An autoencoder network uses a set of features as input and makes predictions based on those same features. The network's architecture imposes restrictions that make it difficult to recover the initial values. In this instance, we'll employ a single hidden layer containing two neurons: In order to reconstruct the approximately 9000 feature values from the selected features as accurately as feasible, the network must first encode the information from those 9000 features into 2 values (see figure below). Intuitively, the hidden layer should encode significant information about our samples if the network is successful in reconstructing the original values.
 
-<img width="600px" 
+<img width="500px" 
      align="center" 
      class="rounded float-start pe-4" 
      src="../img/autoencoder.png" >
 
-<img width="700px"
+<img width="600px"
 align="center"
 class="img-thumbnail"
 src="../img/PCA.jpg" >
