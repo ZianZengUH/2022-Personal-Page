@@ -56,8 +56,14 @@ src="../img/study_partner/JoinSession.png" >
 
 <div align="center" class="text-center p-4">
   <img src="../img/study_partner/Leaderboard.png" class="img-thumbnail" >
+    <figcaption align = "center"><b>Leaderboard Page</b></figcaption>
+<br />
   <img src="../img/study_partner/ViewReport.png" class="img-thumbnail" >
+    <figcaption align = "center"><b>View eport Page</b></figcaption>
+<br />
   <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" >
+    <figcaption align = "center"><b>Contact Admin Page</b></figcaption>
+<br />
 </div>
 
 In this project, I helped design and create the landing page. I designed all pages' (except home pages and log-in pages) backgrounds and headings.
@@ -67,6 +73,7 @@ align="center"
 class="img-fluid"
 src="../img/study_partner/CreateSession.png" >
 <figcaption align = "center"><b>Create Session Page</b></figcaption>
+<br />
 
 In addition, I helped to design the Mongo database collection that contain all of the sessions' data and how to insert the proper data through the form in Create Session Page using Publication and Meteor method design. I also helped on creating Join Session page regarding to the card display, data extraction from the database, and fixed Mongo database issues, such as 
 > - display attendee list in the cards.
@@ -82,6 +89,7 @@ align="center"
 class="img-fluid"
 src="../img/study_partner/Calendar.png" >
 <figcaption align = "center"><b>Calendar Page</b></figcaption>
+<br />
 
 Lastly, I built the Calendar page which can display the current user's attended sessions by using an open-source DayPilot React calendar component. The calendar will display a weekly calendar on the week that the user is in. The user can also pick different weeks through the month picker.
 <br />
