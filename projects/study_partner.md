@@ -10,7 +10,7 @@ labels:
   - MongoDB
   - Javascript 
   - Digital Ocean
-summary: "A web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
+summary: "A web application for University of Hawaii at Manoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic."
 ---
 <br />
 # Project Introduction
