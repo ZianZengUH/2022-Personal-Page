@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content=" PCA Lossy Image Compression | Zian Zeng | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/zianzengUH.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zian Zeng | Professional Portfolio">
+    <meta property="og:url" content="https://ZianZengUH.github.io/projects/PCA_compression.html">
+    <meta property="og:title" content=" PCA Lossy Image Compression | Zian Zeng | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/zianzengUH.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/my_theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/igorpro.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title> PCA Lossy Image Compression | Zian Zeng | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Zian Zeng</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4"> PCA Lossy Image Compression</h1>
+ <div class="text-center p-4">
+  <img width="400px" src="../img/baby_yoda.jpeg" class="img-thumbnail" />
+  <img width="500px" src="../img/compressed_Yoda.jpg" class="img-thumbnail" />
+</div>
+
+<p>In this project, I use Principal Component Analysis to compress an image of baby yoda and we only have a single picture to compress. It denotes that we have n pixels of features and a single sample. If we wish to use PCA to effectively represent our data, we have an issue. In light of this, this method will treat the image as a sample by feature matrix, with each row being a sample and each column representing a feature.</p>
+
+<p>In this project, the space of images is referred to as the “original space,” and the space of images after PCA decomposition is referred to as the “PCA space.” The strategy we’re doing is to only use a few components to represent our image in the PCA space. To maintain the visual quality, we want to choose the fewest possible components.</p>
+
+<p>In order to use PCA, I converted the image into a numpy array which will make the image in a black and white form since we are only focus on the image quality rather than the color. After running a Principal Components Analysis on the image with 50 components to compress, we result a ratio of 24.0 between the size of the compressed image and the original image. The first compressed image as shown:</p>
+
+<p>Then, I fine-tuned the compressed images by using different number of components. In order to evaluate the impact of the number of components on image quality and visually inspect the compressed images, I plotted the result of compression image for a varying number of components from 5 to 40 with a step of 5. In this way, each subplot represents an image for a given number of components (see figure below).</p>
+
+<p align="center">
+  <img width="600px" class="img-fluid" src="../img/compression_ratio.jpg" /> 
+</p>
+
+<p>By accomplished this project, I learned how can machine learning, specifically PCA decomposition, use in the field of image compression. In addition, I learned how to fine-tune the result of the model ran, and how to present the results of the model in a straightforward visual way.</p>
+
+<p>You can learn more at source codes: <a href="https://github.com/ZianZengUH/PCA_compression">PCA Image Compression</a>.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

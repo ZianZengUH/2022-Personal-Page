@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Rules or No Rules? | Zian Zeng | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/zianzengUH.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zian Zeng | Professional Portfolio">
+    <meta property="og:url" content="https://ZianZengUH.github.io/essays/rules_or_no_rules.html">
+    <meta property="og:title" content="Rules or No Rules? | Zian Zeng | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/zianzengUH.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/my_theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/igorpro.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Rules or No Rules? | Zian Zeng | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Zian Zeng</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Rules or No Rules?</h1>
+  <span class="date">22 Sep 2022</span>
+  <hr>
+  <h1 id="rules-are-painful">Rules Are Painful</h1>
+
+<p align="center">
+    <img width="400px" src="../img/essays/ESLint.jpeg" />
+</p>
+
+<p>Have you ever gotten bothered by some rules and thought why do I have to follow them? Following rules is always a hard and sometimes even painful thing to do. Also, rules are everywhere in our lives and we follow many of them every day. It is not an exception in the world of software engineering and it has a name called “code standards”. For example, the following piece of code (from Module 10 - Experience 25) contains 28 errors according to a code analysis tool - ESlint:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="mi">3</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">car</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Toyota</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+ <span class="na">car</span><span class="p">:</span> <span class="nx">car</span><span class="p">,</span>
+ <span class="dl">'</span><span class="s1">foo</span><span class="dl">'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+ <span class="na">bar</span><span class="p">:</span> <span class="dl">'</span><span class="s1">this</span><span class="dl">'</span> <span class="o">+</span> <span class="dl">'</span><span class="s1">is</span><span class="dl">'</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">car</span><span class="p">,</span>
+ <span class="na">baz</span><span class="p">:</span> <span class="dl">'</span><span class="s1">b</span><span class="se">\</span><span class="s1">az</span><span class="dl">'</span>
+<span class="p">};</span>
+<span class="kd">const</span> <span class="nx">zumba</span> <span class="o">=</span> <span class="nx">obj</span><span class="p">[</span><span class="dl">'</span><span class="s1">car</span><span class="dl">'</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">stuff</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">();</span>
+
+<span class="kd">function</span> <span class="nx">f</span><span class="p">(){};</span>
+<span class="kd">function</span> <span class="nx">zob</span><span class="p">(</span><span class="nx">param</span><span class="p">)</span> <span class="p">{</span>
+ <span class="nx">param</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+ <span class="kd">let</span> <span class="nx">foob</span><span class="o">=</span><span class="mi">4</span><span class="o">+</span><span class="nx">param</span><span class="p">;</span>
+ <span class="k">if</span> <span class="p">(</span><span class="nx">param</span> <span class="o">==</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="nx">foob</span><span class="p">;</span>
+ <span class="p">}</span>
+<span class="p">}</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">].</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+ <span class="kd">const</span> <span class="nx">y</span> <span class="o">=</span> <span class="nx">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+ <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">y</span><span class="p">;</span>
+<span class="p">});</span>
+<span class="kd">class</span> <span class="nx">MyClass</span> <span class="p">{</span>
+ <span class="kd">constructor</span><span class="p">()</span> <span class="p">{}</span>
+ <span class="nx">getName</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+ <span class="p">}</span>
+ <span class="nx">getName</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+ <span class="p">}</span>
+<span class="p">}</span>
+<span class="kd">const</span> <span class="nx">TheTitle</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">The Title</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="p">{</span>  <span class="nx">obj</span><span class="p">,</span> <span class="nx">stuff</span><span class="p">,</span> <span class="nx">zumba</span><span class="p">,</span> <span class="nx">f</span><span class="p">,</span> <span class="nx">zob</span><span class="p">,</span> <span class="nx">MyClass</span><span class="p">,</span> <span class="nx">TheTitle</span> <span class="p">};</span>
+</code></pre></div></div>
+
+<p>That’s so many errors that we need to fix! In addition, from my own experience, I got some errors when I was writing the code even though my code actually ran correctly as I wanted. The errors are mostly coding style issues like string variables need to use single quotes instead of double quotes, and there needs to be space after parentheses etc. Trying to fix these errors may be time consuming and tedious. If these rules are complicated and painful to follow, why do we have these rules in the first place and why should we still obey them?</p>
+
+<h1 id="why-should-we-follow-rules">Why Should We Follow Rules?</h1>
+
+<p>Let’s talk about what is the rule first, specifically coding standards in the world of software engineering. According to <em>Geeks for Geeks</em>, coding standards are the rules that good software development organizations developed to enable their programmers to maintain a well-defined and standard style of coding. There are four main reasons to maintain such a style of coding:</p>
+<ol>
+  <li>A coding standard gives a uniform appearance to the codes written by different engineers.</li>
+  <li>It improves the readability, and maintainability of the code and it reduces complexity also.</li>
+  <li>It helps in code reuse and helps to detect errors easily.</li>
+  <li>It promotes sound programming practices and increases the efficiency of the programmers. 
+<a href="https://www.geeksforgeeks.org/coding-standards-and-guidelines/">Coding Standards and Guidelines</a></li>
+</ol>
+
+<p>If these reasons are too broad for you, let’s imagine a world without implementing coding standards. There are typos all over the place, semicolons are missing from certain places, variables are named randomly without any meaning, lines are not aligned properly, functions are half-finished and missing curly brackets, and so on. For many big companies that have millions of codes, how can the new software engineers who just get on the project able to understand what’s going on, how can the software engineers fix and maintain the program when they can’t even read what their co-workers’ or even their own codes? Simply attempting to understand the code may take hours and hours that may be even longer than rewriting the program. For example, can you easily read and understand the codes we mentioned earlier? For most people, it is probably not very easy to understand what’s going on because the code doesn’t follow the code standard. How about the following piece of code after we modified it to follow the ESlint code standard:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">car</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Toyota</span><span class="dl">'</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+ <span class="nx">car</span><span class="p">,</span>
+ <span class="na">foo</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+ <span class="na">bar</span><span class="p">:</span> <span class="s2">`this is </span><span class="p">${</span><span class="k">this</span><span class="p">.</span><span class="nx">car</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span>
+ <span class="na">baz</span><span class="p">:</span> <span class="dl">'</span><span class="s1">baz</span><span class="dl">'</span><span class="p">,</span>
+<span class="p">};</span>
+
+<span class="kd">const</span> <span class="nx">zumba</span> <span class="o">=</span> <span class="nx">obj</span><span class="p">.</span><span class="nx">car</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">stuff</span> <span class="o">=</span> <span class="p">[];</span>
+
+<span class="kd">function</span> <span class="nx">zob</span><span class="p">(</span><span class="nx">param</span><span class="p">)</span> <span class="p">{</span>
+ <span class="kd">const</span> <span class="nx">foob</span> <span class="o">=</span> <span class="mi">4</span> <span class="o">+</span> <span class="nx">param</span><span class="p">;</span>
+ <span class="k">if</span> <span class="p">(</span><span class="nx">param</span> <span class="o">===</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="nx">foob</span><span class="p">;</span>
+ <span class="p">}</span>
+ <span class="k">return</span> <span class="nx">foob</span> <span class="o">+</span> <span class="mi">3</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">].</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
+ <span class="kd">const</span> <span class="nx">y</span> <span class="o">=</span> <span class="nx">x</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+ <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">y</span><span class="p">;</span>
+<span class="p">});</span>
+
+<span class="kd">class</span> <span class="nx">MyClass</span> <span class="p">{</span>
+ <span class="nx">getName</span><span class="p">()</span> <span class="p">{</span>
+   <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+ <span class="p">}</span>
+<span class="p">}</span>
+<span class="kd">const</span> <span class="nx">TheTitle</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">The Title</span><span class="dl">'</span><span class="p">;</span>
+
+<span class="k">export</span> <span class="k">default</span> <span class="p">{</span>
+ <span class="nx">obj</span><span class="p">,</span> <span class="nx">stuff</span><span class="p">,</span> <span class="nx">zumba</span><span class="p">,</span> <span class="nx">zob</span><span class="p">,</span> <span class="nx">MyClass</span><span class="p">,</span> <span class="nx">TheTitle</span><span class="p">,</span>
+<span class="p">};</span>
+</code></pre></div></div>
+
+<p>I believe for most people this modified code is much easier to read than the original code, and this is the power of code standards.</p>
+
+<p>Some may argue that their own style of coding is easy to understand as well, but if there is not a universal standard for everyone, everyone can write things very differently despite the fact that the codes are correct and not very hard to read. Using code standards like the AirBnB style implemented in ESlint can make the codes in a standard format so that everyone can read the code and everyone knows where to look for things. This method accomplishes the goals of improving the readability and maintainability of the code, reducing the complexity, helping in code reuse and error detection, and lastly increasing the efficiency of the programmers! Thus, the small amount of time spent in maintaining the code style will prevent the huge amount of time spent on poorly written code. Let’s embrace the code standards while writing our codes!</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

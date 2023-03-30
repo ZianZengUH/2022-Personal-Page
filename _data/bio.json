@@ -1,0 +1,85 @@
+{
+  "basics": {
+    "name": "Zian Zeng",
+    "label": "Student",
+    "picture": "https://github.com/zianzengUH.png",
+    "email": "zianzeng@hawaii.edu",
+    "phone": "808-745-6155",
+    "website": "https://ZianZengUH.github.io",
+    "summary": "I am studying for a B.S. in Computer Science (Data Science Track) in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96730", "city": "Kaaawa", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "ZianZengUH", "url": "http://github.com/ZianZengUH" },
+      { "network": "linkedin", "username": "Zian Zeng", "url": "http://linkedin.com/in/zian-zeng-uh" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Artificial intelligence" },
+    { "name": "Machine Learning" },
+    { "name": "Computer Vision" },
+    { "name": "Data Science" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Java", "Python", "Javascript", "C", "C++","Ladder logic"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "MacOS", "Linus(Ubuntu)", "Unix", "Git/GitHub" ]
+    },
+    {
+      "name": "Hardware",
+      "keywords": [ "Arduino", "Raspberry Pi", "PLC"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii at Manoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2022)",
+      "studyType": "B.S.",
+      "startDate": "2020-08-24",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaii - Windward Community College",
+      "position": "Supplementary Instruction Leader",
+      "website": "",
+      "startDate": "2020-12-00",
+      "endDate": "Present",
+      "summary": "Facilitated multiple group study sessions and office hours weekly for ICS 111."
+    },
+    {
+      "company": "University of Hawaii - Windward Community College",
+      "position": "Math Lab Tutor",
+      "website": "",
+      "startDate": "2022-01-00",
+      "endDate": "Present",
+      "summary": "Assist students with different levels of math in one-to-one setting."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": ["1. Earn a semester GPA of 3.5 or higher based on 12 credits or more; ", "2. Do not receive grades of NC (no credit), W (withdrawn), I (incomplete), F (failure)"]
+    },
+    {
+      "title": "College Reading & Learning Association (CRLA) Certified Level 1 Tutor",
+      "date": "2022-presemt",
+      "awarder": "The College Reading and Learning Association (CRLA), University of Hawaii - Windward Community College",
+      "summary": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

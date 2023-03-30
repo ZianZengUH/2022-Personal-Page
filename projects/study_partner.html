@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Study Partner | Zian Zeng | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/zianzengUH.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Zian Zeng | Professional Portfolio">
+    <meta property="og:url" content="https://ZianZengUH.github.io/projects/study_partner.html">
+    <meta property="og:title" content="Study Partner | Zian Zeng | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/zianzengUH.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/my_theme.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/igorpro.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Study Partner | Zian Zeng | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Zian Zeng</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Study Partner</h1>
+ <p><br /></p>
+<h1 id="project-introduction">Project Introduction</h1>
+<p><img align="center" class="img-fluid" src="../img/study_partner/landing.png" /></p>
+<figcaption align="center"><b>Landing Page</b></figcaption>
+<p><br /></p>
+
+<p>There is a problem in UHM that ICS students often spend more time than they need on their homework and don’t learn the material as effectively as they could, because they study alone and do not leverage the power of face-to-face study groups with peer mentors. Therefore, we decided to create a solution for this issue as our final project for ICS 314 - a web application for University of Hawaii at Monoa (UHM) ICS students to self-organize face-to-face study groups around a course and/or specific homework or project topic.</p>
+
+<p>The goals for Study Partner are:</p>
+<ul>
+  <li>To encourage use of ICS space among ICS students</li>
+  <li>To minimize risk of inappropriate encounters by requiring all meetings to occur in ICSpace.</li>
+  <li>To encourage face-to-face interaction among ICS students.</li>
+</ul>
+
+<p><img align="center" class="img-fluid" src="../img/study_partner/YourProfile.png" /></p>
+<figcaption align="center"><b>My Profile Page</b></figcaption>
+<p><br /></p>
+
+<p>Our approach to this problem is that students can register or log in the website using email. They are able to set up their profiles as well as look at other people’s profiles. The profile enables each student to list courses they have taken and for which they are willing to attempt to provide help, and courses they are currently taking and for which they might need help.</p>
+
+<p><img align="center" class="img-fluid" src="../img/study_partner/Profiles.png" /></p>
+<figcaption align="center"><b>All Profiles Page</b></figcaption>
+<p><br /></p>
+
+<p>2 styles of using Study Partner:</p>
+<ol>
+  <li>Individual: join a study session that you like to attend in the current day or in the future</li>
+  <li>Group: through “All Profiles” page contact people you would like to plan a session with or plan a group session with people you know</li>
+</ol>
+
+<p><img align="center" class="img-fluid" src="../img/study_partner/JoinSession.png" /></p>
+<figcaption align="center"><b>Join Session Page</b></figcaption>
+<p><br /></p>
+
+<h1 id="my-contribution">My Contribution</h1>
+
+<div align="center" class="text-center p-4">
+  <img src="../img/study_partner/Leaderboard.png" class="img-thumbnail" />
+    <figcaption align="center"><b>Leaderboard Page</b></figcaption>
+<br />
+  <img src="../img/study_partner/ViewReport.png" class="img-thumbnail" />
+    <figcaption align="center"><b>View Report Page</b></figcaption>
+<br />
+  <img src="../img/study_partner/ContactAdmin.png" class="img-thumbnail" />
+    <figcaption align="center"><b>Contact Admin Page</b></figcaption>
+<br />
+</div>
+
+<p>In this project, I helped design and create the landing page. I designed all pages’ (except home pages and log-in pages) backgrounds and headings.</p>
+
+<p><img align="center" class="img-fluid" src="../img/study_partner/CreateSession.png" /></p>
+<figcaption align="center"><b>Create Session Page</b></figcaption>
+<p><br /></p>
+
+<p>In addition, I helped to design the Mongo database collection that contain all of the sessions’ data and how to insert the proper data through the form in Create Session Page using Publication and Meteor method design. I also helped on creating Join Session page regarding to the card display, data extraction from the database, and fixed Mongo database issues, such as</p>
+<blockquote>
+  <ul>
+    <li>display attendee list in the cards.</li>
+    <li>separate the MakeCard function from Join Session to create MakeCard Component, update MakeCard Component to fix the following issues:
+      <blockquote>
+        <ul>
+          <li>fix can’t display default session collection.</li>
+          <li>enable join button to add current user’s email into attendee array.</li>
+          <li>fix adding same email to attendee array.</li>
+        </ul>
+      </blockquote>
+    </li>
+  </ul>
+</blockquote>
+
+<p><br /></p>
+
+<p><img align="center" class="img-fluid" src="../img/study_partner/Calendar.png" /></p>
+<figcaption align="center"><b>Calendar Page</b></figcaption>
+<p><br /></p>
+
+<p>Lastly, I built the Calendar page which can display the current user’s attended sessions by using an open-source DayPilot React calendar component. The calendar will display a weekly calendar on the week that the user is in. The user can also pick different weeks through the month picker.
+<br /></p>
+
+<h1 id="my-takeaways">My Takeaways</h1>
+
+<p>Since I attempted Hawaii Code Challenge (HACC) 2022 using Meteor framework with MongoDB, this was not my first time doing a big project with a team using what I learned in ICS 314, but it is my second time of doing a big web application project with a team by using similar skills and it was a successful one as well! First of all, I was very grateful when we finished this project because in HACC we had team members unable to continue participate in the competition due to force majeure factors like sickness. Second, this is my first time truly use the power of agile project management in a team, specifically issue-driven project management through GitHub. We were able to divide, manage, and complete the reverent issues/tasks rather than trying to figure out and solve things along the way. In addition, I get more comfortable with Javascript, HTML, json, Meteor React framework, Mongo database. I also get a deeper understanding on these tools, web application design &amp; development (like debugging using Eslint, console, and inspection of the HTML elements; user subscriptions; default data; server deployment), and fundamental software engineering skills (such as coding standards, open source software development, configuration management, and user interface frameworks)</p>
+
+<p>You can learn more at the project home page: <a href="https://study-partner.github.io/">Study Partner</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
